@@ -3283,8 +3283,6 @@ After stepping, Debugger will allow you to hover over a variable and it will dis
 
 <div align= "center">
 
-<!-- ❌ ✔ -->
-
 | All | Sub |                            | Class           | Struct           |
 | --- | --- | -------------------------- | --------------- | ---------------- |
 | 01  | 01  | User Defined Type          | ✔               | ✔                |
@@ -5606,9 +5604,7 @@ AN ASSEMBLY IS THE BASIC UNIT OF DEPLOYMENT IN .NET CORE
 
 ### Process Image
 
-<!-- TODO -->
-
-![Process Image](https://github.com/Courses-journey/c-sharp_temp/assets/50374022/9a6789db-efc9-4ffb-8767-da3917f25446)
+![](https://raw.githubusercontent.com/Courses-journey/dotnet/main/Metigator/01_mastering_csharp/assets/029_Assemblies.jpg)
 
 ### ILDASM / ILASM
 
@@ -6074,8 +6070,6 @@ var ski11Attribute = prop.GetCustomAttribute<SkillAttribute>();
 
 ### CheckList
 
-<!-- ❌ ✔ -->
-
 <div align= "center">
 
 |                                 | List | Collection |
@@ -6298,8 +6292,6 @@ When you have list of items and want to convert it to dic and pair them with cre
 
 ### CheckList
 
-<!-- ❌ ✔ -->
-
 <div align= "center">
 
 |                                 | STACK | QUEUE |
@@ -6463,8 +6455,6 @@ There is two ways to deals with collections
 
 ### CheckList
 
-<!-- ❌ ✔ -->
-
 <div align= "center">
 
 |                                 | LINKED LIST |
@@ -6534,8 +6524,6 @@ Consists of linked list node
 - Check Lesson Repo
 
 ### CheckList
-
-<!-- ❌ ✔ -->
 
 <div align= "center">
 
@@ -6673,9 +6661,7 @@ Flow Of Managed Code
 
     - DeflateStream : Compress and Decompress the data
 
-<!-- TODO -->
-
-![Stream Architecture Image]()
+![](https://raw.githubusercontent.com/Courses-journey/dotnet/main/Metigator/01_mastering_csharp/assets/035_Stream.jpg)
 
 ### IDisposable
 
@@ -7187,8 +7173,6 @@ Task.Run(delegateThatTakeNoArgument)
 ### THREAD VS TASKS
 
 <div align="center">
-
-<!-- ❌ ✔ -->
 
 | CRITERIA               | THREAD                  | TASK        | Advantages          |
 | ---------------------- | ----------------------- | ----------- | ------------------- |
@@ -8674,7 +8658,7 @@ now
   Console.WriteLine("Hello World");
 ```
 
-<!-- TODO inset image here from assets -->
+![](https://raw.githubusercontent.com/Courses-journey/dotnet/main/Metigator/01_mastering_csharp/assets/042_Top_Level_statement.jpg)
 
 ### Main method forms
 
@@ -9032,7 +9016,7 @@ u can tell project to remove or add certain `using` by modify `.csproj`
 </Project>
 ```
 
-## 043 Working with NULL
+v## 043 Working with NULL
 
 ```md
 I call it my billion-dollar mistake. It was the invention of
@@ -9228,7 +9212,7 @@ go to `.csproj`
 
 `compile time effect`
 
-<!-- Todo add image here from asset -->
+![](https://raw.githubusercontent.com/Courses-journey/dotnet/main/Metigator/01_mastering_csharp/assets/043_Working_with_NULL.jpg)
 
 when `nullable` is `disabled` or is `enabled` and convert code to intermediate language the code will be the same
 
@@ -9618,7 +9602,7 @@ Console.WriteLine(firstValue.ToUpper());
   #nullable restore warnings
   ```
 
-<!-- TODO set image here -->
+![](https://raw.githubusercontent.com/Courses-journey/dotnet/main/Metigator/01_mastering_csharp/assets/043_Working_with_NULL_01.jpg)
 
 ## 044 Strings in c#
 
@@ -9631,7 +9615,7 @@ Console.WriteLine(firstValue.ToUpper());
 
 ### How data stored
 
-<!-- TODO image here -->
+![](https://raw.githubusercontent.com/Courses-journey/dotnet/main/Metigator/01_mastering_csharp/assets/044_Strings_01.jpg)
 
 ```
 abcdefghijklmnopqrstuvwxyz0123456789
@@ -10007,7 +9991,7 @@ public enum StringComparison
 
 There is `Stack` and `Heap` but when dealing string there is new concepts `Intern Pool`
 
-<!-- TODO image from asset -->
+![](https://raw.githubusercontent.com/Courses-journey/dotnet/main/Metigator/01_mastering_csharp/assets/044_Strings.png)
 
 #### String Literal Vs Object
 
@@ -10027,7 +10011,7 @@ public static void RunStringLiteralVsObject()
 }
 ```
 
-<!-- TODO image from asset 02 -->
+![](https://raw.githubusercontent.com/Courses-journey/dotnet/main/Metigator/01_mastering_csharp/assets/044_Strings_02.png)
 
 #### String Literal Key
 
@@ -10049,7 +10033,7 @@ public static void RunStringLiteralKey()
 }
 ```
 
-<!-- TODO image from asset 03 -->
+![](https://raw.githubusercontent.com/Courses-journey/dotnet/main/Metigator/01_mastering_csharp/assets/044_Strings_03.png)
 
 #### String Literal With String Object Comparison
 
@@ -10067,7 +10051,7 @@ public static void RunStringLiteralWithStringObjectComparison()
 }
 ```
 
-<!-- TODO image from asset 04 -->
+![](https://raw.githubusercontent.com/Courses-journey/dotnet/main/Metigator/01_mastering_csharp/assets/044_Strings_04.png)
 
 #### String Intern
 
@@ -10099,7 +10083,7 @@ public static void RunStringIntern()
 }
 ```
 
-<!-- TODO image from asset 05 -->
+![](https://raw.githubusercontent.com/Courses-journey/dotnet/main/Metigator/01_mastering_csharp/assets/044_Strings_05.png)
 
 ### String Methods
 
@@ -10391,6 +10375,8 @@ static void RunStringJoin()
 | Represent string of characters | Represent string of characters |
 | Immutable                      | Mutable                        |
 
+![](https://raw.githubusercontent.com/Courses-journey/dotnet/main/Metigator/01_mastering_csharp/assets/045_StringBuilder.jpg)
+
 ### using string
 
 ```c#
@@ -10535,7 +10521,7 @@ static void RunStringBuilderHowItWorks()
 
 Parent child Relationship
 
-<!-- TODO image here 01-->
+![](https://raw.githubusercontent.com/Courses-journey/dotnet/main/Metigator/01_mastering_csharp/assets/045_StringBuilder_01.jpg)
 
 ### StringBuilder Instantiation
 
